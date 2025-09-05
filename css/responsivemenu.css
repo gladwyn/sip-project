@@ -1,0 +1,10 @@
+/* CSS Document */
+@media only screen and (max-width:992px){
+	.navbar-header{
+		margin: auto;
+	}
+	.navbar-header a {
+		display: block;
+		
+	}
+}
