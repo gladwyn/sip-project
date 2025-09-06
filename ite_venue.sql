@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 4.9.2
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1:3307
--- Generation Time: Sep 06, 2025 at 08:30 AM
--- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- Host: 127.0.0.1
+-- Generation Time: Jan 27, 2020 at 01:35 PM
+-- Server version: 10.4.11-MariaDB
+-- PHP Version: 7.2.26
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -30,7 +31,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `adminlogin` (
   `adminname` varchar(255) NOT NULL,
   `adminpassword` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `adminlogin`
@@ -39,9 +40,7 @@ CREATE TABLE `adminlogin` (
 INSERT INTO `adminlogin` (`adminname`, `adminpassword`) VALUES
 ('', ''),
 ('', ''),
-('1', '1'),
-('test', 'test'),
-('test', 'test');
+('1', '1');
 
 -- --------------------------------------------------------
 
@@ -52,16 +51,8 @@ INSERT INTO `adminlogin` (`adminname`, `adminpassword`) VALUES
 CREATE TABLE `reportvenue` (
   `ID` int(11) NOT NULL,
   `venuecode` varchar(255) NOT NULL,
-  `venuename` varchar(255) NOT NULL,
-  `venuedesc` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `reportvenue`
---
-
-INSERT INTO `reportvenue` (`ID`, `venuecode`, `venuename`, `venuedesc`) VALUES
-(46, 'ee', 'e', 'ee');
+  `venuename` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -77,14 +68,7 @@ CREATE TABLE `studentinfo` (
   `coursename` varchar(255) NOT NULL,
   `EnrolledClass` varchar(255) NOT NULL,
   `venuecode` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `studentinfo`
---
-
-INSERT INTO `studentinfo` (`ID`, `StudentID`, `StudentName`, `EnrolledCourse`, `coursename`, `EnrolledClass`, `venuecode`) VALUES
-(263, 'e', 'e', 'e', 'e', 'e', 'ee');
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -96,14 +80,7 @@ CREATE TABLE `venueimage` (
   `ID` int(11) NOT NULL,
   `imagename` varchar(255) NOT NULL,
   `venuecode` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `venueimage`
---
-
-INSERT INTO `venueimage` (`ID`, `imagename`, `venuecode`) VALUES
-(132, 'ChatGPT Image Sep 6, 2025, 02_18_48 PM.png', 'ee');
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Indexes for dumped tables
@@ -139,19 +116,19 @@ ALTER TABLE `venueimage`
 -- AUTO_INCREMENT for table `reportvenue`
 --
 ALTER TABLE `reportvenue`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=43;
 
 --
 -- AUTO_INCREMENT for table `studentinfo`
 --
 ALTER TABLE `studentinfo`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=264;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=256;
 
 --
 -- AUTO_INCREMENT for table `venueimage`
 --
 ALTER TABLE `venueimage`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=133;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=126;
 
 --
 -- Constraints for dumped tables

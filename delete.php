@@ -96,7 +96,7 @@ $msg1 = "";
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-	<div class="container-login100" style="background-image: url('images/bg-03.jpg');">
+	<div class="container-login100" style="background-image: url('images/bg-03.png');">
 		<div class="wrap-login100 p-t-30 p-b-50" align="justify">
 				<span class="login100-form-title p-b-41">
 					DELETE Info

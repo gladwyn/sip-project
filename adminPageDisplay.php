@@ -248,7 +248,7 @@ if(isset($_POST['logout'])){
 		<!-- Nav Header -->
 		<div class="navbar-header">
 			
-			<img src="images/ite-logo.png" alt="logo">
+			<img src="images/itelogo.png" alt="logo">
 			<a class="navbar-brand" href="adminPageDisplay.php"><span class="link"> View Venues Info and Students Info  </span></a>
 			<a class="navbar-brand" href="addvenue.php"><span class="link"> Add Venues Info   </span></a>
 			<a class="navbar-brand" href="addstudent.php"><span class="link"> Add Students Info </span></a>
@@ -261,7 +261,7 @@ if(isset($_POST['logout'])){
 	</div>
 </nav>
 
-	<div class="container-login100" style="background-image: url('images/bg-03.jpg');">
+	<div class="container-login100" style="background-image: url('images/bg-03.png');">
 			<div class="wrap-login100 p-t-30 p-b-50" align="justify">
 				<span class="login100-form-title p-b-41">
 					View Student Info

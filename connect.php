@@ -6,9 +6,8 @@
 </head>
 <body>
 	<?php
-	//connection
-	$conn = mysqli_connect("localhost","root","","ite_venue");
-   //query for studentinfo 
+	//connection with port specified
+	$conn = mysqli_connect("localhost","root","","ite_venue", 3307);
     ?>
 </body>
 </html>

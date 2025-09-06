@@ -67,7 +67,7 @@ if(!empty($data)){
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<img src="images/ite-logo.png">
+			<img src="images/itelogo.png">
 			<a class="navbar-brand" href="index.php"><span class="fa fa-home"></span><span class="link"> Student</span></a>
 			<a class="navbar-brand" href="adminlogin.php"><span class="fa fa-user"></span><span class="link"> Admin</span></a>
 			
@@ -78,7 +78,7 @@ if(!empty($data)){
 
 
 	<div class="limiter">
-		<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
+		<div class="container-login100" style="background-image: url('images/bg-01.png');">
 			<div class="wrap-login100 p-t-30 p-b-50">
 				<span class="login100-form-title p-b-41">
 					Admin Login

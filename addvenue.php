@@ -224,7 +224,7 @@ if(isset($_POST['logout'])){
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse-1" aria-expanded="false">
 				
 			</button>
-		  <img src="images/ite-logo.png" alt="logo">
+		  <img src="images/itelogo.png" alt="logo">
 		    <a class="navbar-brand" href="adminPageDisplay.php"><span class="link"> View Venues Info  and Students  Info </span></a>
 			<a class="navbar-brand" href="addvenue.php"><span class="link"> Add Venues  Info  </span></a>
 			<a class="navbar-brand" href="addstudent.php"><span class="link"> Add Students  Info</span></a>
