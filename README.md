@@ -13,11 +13,11 @@ A web-based application that allows students to know where to go during orientat
 - **Deployment:** infinityfree
 - **Version Control:** Git + GitHub
 
----Limitations
+---
+## Limitations
 
 - I only manage do it on localhost.
 
-## 
 ---
 ## due to confidentality
 
