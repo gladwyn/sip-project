@@ -13,8 +13,12 @@ A web-based application that allows students to know where to go during orientat
 - **Deployment:** infinityfree
 - **Version Control:** Git + GitHub
 
----
+---Limitations
 
+- I only manage do it on localhost.
+
+## 
+---
 ## due to confidentality
 
 - i have to use genAI to generate anime image to cover up the projects.
